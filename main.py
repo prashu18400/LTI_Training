@@ -1,7 +1,7 @@
 import calculate
 
 
-n = input("Enter a number: ",)
+n = int(input("Enter a number: "))
 
-print(calculate.square(n))
+print("The sauqre of number is",calculate.square(n))
 
